@@ -11381,6 +11381,12 @@ p {
     margin-top: 2.8rem;
 }
 
+    .more-button:hover, .more-button:active, .more-button:focus {
+        background-color: #4158df !important;
+        border-color: #9aa7f7 !important;
+        box-shadow: 0 0 0 0.25rem rgba(125, 143, 251, 0.52);
+    }
+
 
 
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
