@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/9a7e574c3eda05d71d03345d3f9e268e?family=FuturaLTW01-LightOblique" rel="stylesheet" type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
 </head>
@@ -29,7 +30,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#services">Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
                         <li class="nav-item"><a class="nav-link" href="#portfolio">Experience</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -57,7 +58,7 @@
                         <span class="masthead-tag badge-light">GYMNAST AT HEART</span>
                     </div>
                     <div>
-                        <button type="button" class="btn btn-primary more-button">TELL ME MORE</button>
+                        <button type="button" class="btn btn-primary more-button" onClick="document.getElementById('education').scrollIntoView()">TELL ME MORE</button>
                     </div>
                 </div>
                 <div class="col-sm masthead-icon">
@@ -85,40 +86,52 @@
             </div>
         </header>
         <!-- Services-->
-        <section class="page-section" id="services">
+        <section class="page-section" id="education">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Services</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <div class="row">
+                    <div class="col" style="background-color: #5569dc;max-width: 30%;font-family: var(--bs-font-code);color: white;font-size: 3rem;justify-content: center;display: grid;align-content: center;font-weight: ;font-weight: 200 !important;/*! font-family: 'Playfair Display', serif; */letter-spacing: 0.3rem;">EDUCATION</div>
+                    <div class="col timeline-centered">
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon"></div>
+                                <div class="timeline-label">
+                                    2020 - 2022
+                                </div>
+                                <h3 class="company">M.Sc. Computer Science</h3>
+                                <p class="designation text-uppercase"><img src="assets/img/mcgill-log.png" style="width: 2.5%;margin-right: .5rem;">McGill Univeristy</p>
+                                <p class="description">
+                                    <div class="description-item">Researching sdsd ........................... sdd f</div>
+                                    <ul>
+                                        <li class="description-item">Co-authored the paper Generating Unit Tests for Documentation, to appear in IEEE Transactions on Software Engineering. </li>
+                                        <li class="description-item">Masters Research Scholarship - Fonds de Recherche du Québec (2021 - 2022)</li>
+                                        <li class="description-item">Graduate Excellence Fellowship - McGill (2020)</li>
+                                    </ul>
+                                </p>
+                            </div>
+                        </article>
+                        <article class="timeline-entry">
+                            <div class="timeline-entry-inner">
+                                <div class="timeline-icon"></div>
+                                <div class="timeline-label">
+                                    2016 - 2020
+                                </div>
+                                <h3 class="company">B.A. Computer Science</h3>
+                                <p class="designation text-uppercase"><img src="assets/img/mcgill-log.png" style="width: 2.5%;margin-right: .5rem;">McGill Univeristy </p>
+                                <p class="description">
+                                    <!--                                        <div class="description-item">Researching sdsd ........................... sdd f</div>
+                    -->
+                                    <ul>
+                                        <li class="description-item">Graduated on the Dean's Honour List (2020)</li>
+                                        <li class="description-item">Mary Coppin Scholarship - McGill (2019 – 2020)</li>
+                                    </ul>
+                                </p>
+                            </div>
+
+                        </article>
+                    </div>
                 </div>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                    <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Web Security</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+                        </div>
+</section>
         <!-- Portfolio Grid-->
         <section class="page-section bg-light" id="portfolio">
             <div class="container">
