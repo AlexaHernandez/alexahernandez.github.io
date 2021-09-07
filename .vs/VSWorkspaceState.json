@@ -3,9 +3,10 @@
     "",
     "\\assets",
     "\\assets\\img",
+    "\\assets\\img\\logos",
     "\\css",
     "\\js"
   ],
-  "SelectedNode": "\\assets\\img\\tester.svg",
+  "SelectedNode": "\\assets\\img\\logos\\wimgym.png",
   "PreviewInSolutionExplorer": false
 }
