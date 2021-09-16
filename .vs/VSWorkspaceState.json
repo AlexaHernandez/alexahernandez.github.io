@@ -4,9 +4,10 @@
     "\\assets",
     "\\assets\\img",
     "\\assets\\img\\logos",
+    "\\assets\\img\\portfolio",
     "\\css",
     "\\js"
   ],
-  "SelectedNode": "\\assets\\img\\navbar-logo.svg",
+  "SelectedNode": "\\js\\scripts.js",
   "PreviewInSolutionExplorer": false
 }
