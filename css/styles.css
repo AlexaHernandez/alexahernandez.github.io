@@ -5513,8 +5513,13 @@ textarea.form-control-lg {
     transition: none;
   }
 }
+
+.connect-linkedin {
+    margin-top: 1rem;
+}
+
 .modal.show .modal-dialog {
-  transform: none;
+    transform: none;
 }
 .modal.modal-static .modal-dialog {
   transform: scale(1.02);
